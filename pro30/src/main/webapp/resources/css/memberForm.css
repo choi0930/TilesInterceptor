@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+	
+	fieldset{
+	border: 0px
+	}
+
+	a{
+	text-decoration: none;
+	}
+	#before_page{
+	font-size:16px;
+	float: right;
+	color:black;
+	}
+	#before_page:hover, #before_page:focus{
+	color:red;
+	}
+	#join_input{
+	
+	font-family: 'Roboto', 'NotoSansKR', Malgun Gothic, '맑은 고딕', Dotum, '돋움', sans-serif;
+    font-size: 12px;
+	}
+	#join_input fieldset legend{
+	font-size: 20px;
+	}
+	#join_input fieldset label{
+	font-size: 16px;
+	}
+	#join_input fieldset input{
+	font-size: 20px;
+	margin-left:auto;
+	margin-right:auto;
+    }
+	.form_input{
+	width: 500px;
+	height: 50px;
+	}
+	.alert{
+		margin-top: 20px;
+		font-size: 14px;
+	}
+	
+	
+	.greenText{
+	color:green;
+	}
+	.redText{
+	color:red;
+	}
+	#form_userId, #form_userPwd, #form_userName, #form_email, #userPhone{
+	margin-bottom: 30px;
+	}
+	.input-form{
+	padding:20px 20px 20px 20px;
+	position:relative;
+	width: 600px;
+	margin: 0 auto;
+	margin-top: 80px;
+		background: #fff;
+      border-radius: 10px;
+      
+      box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.15);
+	}
